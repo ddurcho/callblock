@@ -56,7 +56,7 @@ class PhoneNumbersController extends Controller
         
         $this->validate($request, [
             'title' => 'required',
-            'phone_number' => 'required|unique',
+            'phone_number' => 'required',
             'description' => 'required'
             ]);
             
