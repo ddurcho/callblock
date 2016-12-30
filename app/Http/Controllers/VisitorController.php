@@ -11,7 +11,6 @@ class VisitorController extends Controller
     
     
     
-    
     public function show($phone_number){
         
         
