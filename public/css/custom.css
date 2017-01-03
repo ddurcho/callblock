@@ -1,0 +1,16 @@
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px !important;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.starter-template{
+    text-align:center;
+}
+
+.media-object{
+    max-height: 4em;
+}

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel - Call block Service</title>
+        <title>Call block service - TRYGGID.SE</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -59,7 +59,6 @@
                 padding-left: 5vh;
                 padding-right: 5vh;
                 margin-top:2em;
-
             }
 
             .links > a {
@@ -133,7 +132,7 @@
             
                 <div class="top-left links">
                     
-                        <a href="{{ url('/') }}" class="logo">Laravel</a>
+                        <a href="{{ url('/') }}" class="logo">tryggid.se</a>
                     
                 </div>
             
@@ -146,7 +145,7 @@
                 <div class="links">
                     
                        
-                      <input type="text" class="search" name="phone_number" id="phone_number" placeholder="Enter Phone number" required>
+                      <input type="text" class="search" name="phone_number" id="phone_number" placeholder="Find phone number" required>
                       <br><br>
                       <input type="submit" class="submit" value="Find" onclick="goToPage();">
                     

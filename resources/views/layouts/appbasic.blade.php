@@ -8,17 +8,17 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-   <!-- <title>{{ config('app.name', 'Tryggid.se') }}</title> -->
+    <title>TRYGGID.SE</title>
    
-   <title>{{ $number->phone_number }} - TRYGGID.SE</title>
 
     <!-- Styles -->
     <link href="/css/custom.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
     
-   
-    
+
     <!-- Scripts -->
+    
+   
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
@@ -56,6 +56,7 @@
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Login</a></li>
+                            
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
